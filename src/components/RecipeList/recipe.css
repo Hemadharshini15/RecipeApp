@@ -1,0 +1,64 @@
+.image{
+    height:200px;
+    object-fit: cover;
+    margin:5px;
+    border-radius: 10px;
+}
+
+.card{
+    margin-top: 40px;
+  display: flex;
+ 
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 50x;
+
+
+}
+.con{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-width: 300px;
+}
+.area .category{
+    padding: 5px;
+    margin: 5px;
+}
+ .category{
+    padding: 5px;
+    background-color: rgb(56, 150, 56);
+
+    color: white;
+}
+.area{
+    padding: 5px;
+    background-color: rgb(206, 63, 63);
+    color: white;
+    margin-right: 5px;
+}
+.title{
+    margin: 10px;
+    max-width: 300px;
+}
+.area:hover{
+    background-color: rgb(231, 130, 130);
+    color: white;
+    cursor: pointer;
+    padding: 6px;
+}
+.category:hover{
+    background-color: rgb(101, 191, 101);
+
+    color: white;
+    cursor: pointer;
+    padding: 6px;
+}
+.link {
+ text-decoration:none;
+ color: black;
+}
